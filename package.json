@@ -1,0 +1,14 @@
+{
+  "name": "movies-app",
+  "version": "0.1.0",
+  "description": "app to test TDD",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start karma.conf.js"
+  },
+  "author": "Jerry Garcia",
+  "license": "ISC",
+  "devDependencies": {
+    "karma": "^0.13.16"
+  }
+}
