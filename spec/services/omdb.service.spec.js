@@ -3,9 +3,9 @@ describe('Omdb service', function() {
     var omdbService = {};
     var $httpBackend;
 
-    beforeEach(angular.mock.module('moviesApp'));
+    beforeEach(module('moviesApp'));
 
-    beforeEach(angular.mock.inject(function(_omdbService_, _$httpBackend_) {
+    beforeEach(inject(function(_omdbService_, _$httpBackend_) {
             omdbService = _omdbService_;
             $httpBackend = _$httpBackend_;
     }));
