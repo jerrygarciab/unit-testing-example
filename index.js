@@ -1,4 +1,4 @@
-//angular.module('moviesApp', [
-//    'mainCtrl',
-//    'omdbService'
-//]);
+angular.module('moviesApp', [
+    'mainCtrl',
+    'omdbService'
+]);
